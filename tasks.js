@@ -25,7 +25,7 @@ function OnClick1() {
 function OnClick2() {
   const Prompt2 = document.getElementById("task2input").value;
   const FinalValue2 = Prompt2.length;
-  document.getElementById("h2stask2").innerHTML = `Your Name Contains ${FinalValue2} Letters`;
+  alert(`Your Name Contains ${FinalValue2} Letters`);
 }
 
 // /**
