@@ -206,7 +206,7 @@ document.getElementById("task12h27").innerHTML = array2;
 // write an arrow function that takes in a string as an argument and returns the string in uppercase letters.
 
 
-async function task131() {
+task131 = () => {
     var x = document.getElementById("task13Input");
     var defaultVal = x.defaultValue;
     var currentVal = x.value;
